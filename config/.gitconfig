@@ -1,0 +1,13 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	email = grant_carson@homedepot.com
+	name = Grantopher
+[core]
+	editor = vim
+	longpaths = true
+[http]
+	sslverify = false
